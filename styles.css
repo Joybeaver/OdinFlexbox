@@ -1,7 +1,6 @@
 body {
     font-family: Roboto, Aerial, noto-serif;
     margin: 0px;
-
 }
 
 
@@ -10,7 +9,8 @@ body {
     flex-flow: column;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 10px 40px;
+    padding: 10px 180px;
+    height: 550px;
 }
 
 .header {
@@ -19,24 +19,34 @@ body {
     justify-content: space-between;
 }
 
+.header p {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
 ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    font-size: 18px;
+    color: #E5e7eb;
 }
 
-a, a:visited {
+a:link, a:visited {
     text-decoration: none;
+    color: #E5e7eb;
 }
 
 .top {
     display: flex;
     justify-content: space-around;
+    margin-top: 60px;
 }
 
 .top-left {
-    flex: 0 1 auto;
+    flex: 1 1 auto;
 }
 
 .image-holder img{
