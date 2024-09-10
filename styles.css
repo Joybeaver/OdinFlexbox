@@ -73,4 +73,19 @@ a:link, a:visited {
     object-fit: cover;
 }
 
+.part-2 {
+
+}
+
+.information-header-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900px;
+}
+
+.icon-text {
+    font-size: 18px;
+    color: #6f7276;
+}
+
 /* give texts classes next time, style the button, remove the H from texts */
