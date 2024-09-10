@@ -51,6 +51,11 @@ a:link, a:visited {
     font-weight: 900;
 }
 
+.secondary-text, .header-links {
+    font-size: 18px;
+    color: #E5e7eb;
+}
+
 .top-left {
     flex: 1 1 auto;
 }
