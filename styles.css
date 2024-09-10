@@ -73,19 +73,36 @@ a:link, a:visited {
     object-fit: cover;
 }
 
-.part-2 {
-
+.part-2 {   
+    padding: 10px 180px;
+    text-align: center;
 }
 
 .information-header-text {
+    display: flex;
+    justify-content: center;
     font-size: 36px;
     color: #1F2937;
-    font-weight: 900px;
+    font-weight: 900;
+}
+
+.icons-and-texts {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icon-and-text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100px;
 }
 
 .icon-text {
     font-size: 18px;
     color: #6f7276;
 }
+
+
 
 /* give texts classes next time, style the button, remove the H from texts */
