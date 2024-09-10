@@ -4,7 +4,7 @@ body {
 }
 
 
-.header-and-top {
+.part-1 {
     display: flex;
     flex-flow: column;
     background-color: #1F2937;
