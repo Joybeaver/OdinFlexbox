@@ -19,7 +19,7 @@ body {
     justify-content: space-between;
 }
 
-.header p {
+.header-logo {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 900;
@@ -45,10 +45,27 @@ a:link, a:visited {
     margin-top: 60px;
 }
 
+.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
 .top-left {
     flex: 1 1 auto;
+}
+
+.top button {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 5px 20px;
 }
 
 .image-holder img{
     object-fit: cover;
 }
+
+/* give texts classes next time, style the button, remove the H from texts */
