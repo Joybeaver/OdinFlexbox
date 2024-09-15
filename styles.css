@@ -75,6 +75,7 @@ a:link, a:visited {
 .part-2 {   
     padding: 10px 180px;
     text-align: center;
+    height: 450px;
 }
 
 .information-header-text {
@@ -83,6 +84,7 @@ a:link, a:visited {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    margin: 40px 0px; 
 }
 
 .icons-and-texts {
@@ -105,8 +107,35 @@ a:link, a:visited {
 .icon-text {
     font-size: 18px;
     color: #6f7276;
+    margin-top: 10px;
+    margin-bottom: 
 }
 
+
+.part-3 {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 500px;
+    background-color: #E5e7eb;
+    padding: 10px 180px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: light;
+}
+
+.quote-author-text {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: bold;
+}
 
 
 /* style the icons, make the images resize properly when there's not enough space */
