@@ -88,7 +88,7 @@ a:link, a:visited {
 .icons-and-texts {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
 }
 
 .icon-and-text {
