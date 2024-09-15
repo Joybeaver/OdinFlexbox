@@ -70,7 +70,14 @@ a:link, a:visited {
     padding: 5px 20px;
 }
 
+.image-holder {
+    width: 800px;
+    height: 260px;
+}
+
 .image-holder img{
+    height: 100%;
+    width: 100%;
     object-fit: cover;
 }
 
