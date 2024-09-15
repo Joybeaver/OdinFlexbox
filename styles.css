@@ -97,6 +97,11 @@ a:link, a:visited {
     flex-basis: 100px;
 }
 
+.icons-and-texts img {
+    border: 3px solid #3882f6;
+    border-radius: 25px;
+}
+
 .icon-text {
     font-size: 18px;
     color: #6f7276;
@@ -104,4 +109,4 @@ a:link, a:visited {
 
 
 
-/* style the icons, make the random information show on top, make the images resize properly when there's not enough space */
+/* style the icons, make the images resize properly when there's not enough space */
