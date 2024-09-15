@@ -121,6 +121,9 @@ a:link, a:visited {
     padding: 10px 180px;
 }
 
+.quote {
+    display: flex;
+}
 .quote-text {
     font-size: 36px;
     color: #1F2937;
