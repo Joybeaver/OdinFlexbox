@@ -1,15 +1,17 @@
 body {
+    display: flex;
+    flex-flow: column;
     font-family: Roboto, Aerial, noto-serif;
     margin: 0px;
 }
 
 .part-1 {
     display: flex;
-    flex-flow: column;
+    flex-flow: column wrap;
     background-color: #1F2937;
     color: #F9FAF8;
     padding: 10px 180px;
-    height: 550px;
+    flex-basis: 550px;
 }
 
 .header {
