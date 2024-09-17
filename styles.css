@@ -154,5 +154,35 @@ a:link, a:visited {
     font-weight: bold;
 }
 
+.part-4 {
+   display: flex;
+   flex-flow: column no wrap;
+   justify-content: center;
+   align-items: center;
+   height: 350px;
+   padding: 10px 180px; 
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    border-style: none;
+    border-radius: 5px;
+    padding: 20px 40px;
+}
+
+.call-to-action-heading {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.call-to-action p {
+    margin-top: 0px;
+}
+
 
 /* start doing the 4th part, and maybe think about making the image stay within the container*/
