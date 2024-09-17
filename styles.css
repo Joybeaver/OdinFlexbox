@@ -65,9 +65,9 @@ a:link, a:visited {
     background-color: #3882f6;
     border: none;
     border-radius: 5px;
-    font-size: 24px;
+    font-size: 20px;
     color: #F9FAF8;
-    padding: 5px 20px;
+    padding: 5px 30px;
 }
 
 .image-holder {
@@ -156,21 +156,22 @@ a:link, a:visited {
 
 .part-4 {
    display: flex;
-   flex-flow: column no wrap;
+   flex-flow: column nowrap;
    justify-content: center;
    align-items: center;
-   height: 350px;
+   height: 300px;
    padding: 10px 180px; 
 }
 
 .call-to-action {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    gap: 200px;
     background-color: #3882f6;
     border-style: none;
-    border-radius: 5px;
-    padding: 20px 40px;
+    border-radius: 10px;
+    padding: 40px 160px;
 }
 
 .call-to-action-heading {
@@ -181,8 +182,21 @@ a:link, a:visited {
 }
 
 .call-to-action p {
-    margin-top: 0px;
+    margin: 0px;
+}
+
+.call-to-action button {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    background-color: #3882f6;
+    border: solid;
+    border-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #F9FAF8;
+    padding: 5px 30px;
+    width: 200px;
 }
 
 
-/* start doing the 4th part, and maybe think about making the image stay within the container*/
+/* start doing the 4th part, and maybe think about making the image stay within the container, apply box-sizing: border-box to containers*/
