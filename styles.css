@@ -57,10 +57,6 @@ a:link, a:visited {
     color: #E5e7eb;
 }
 
-.top-left {
-    flex: 1 1 auto;
-}
-
 .top button {
     background-color: #3882f6;
     border: none;
@@ -117,9 +113,7 @@ a:link, a:visited {
     font-size: 18px;
     color: #6f7276;
     margin-top: 10px;
-    margin-bottom: 
 }
-
 
 .part-3 {
     display: flex;
@@ -198,5 +192,12 @@ a:link, a:visited {
     width: 200px;
 }
 
-
-/* start doing the 4th part, and maybe think about making the image stay within the container, apply box-sizing: border-box to containers*/
+.footer {
+    margin-top: auto;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+/* start doing the 4th part, and maybe think about making the image stay within the container, apply box-sizing: border-box to containers, make the buttons clickable*/
