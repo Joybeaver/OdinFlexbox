@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-flow: column;
-    font-family: 'Roboto', Arial, noto-serif;
+    font-family: 'Roboto', Arial, 'noto-serif';
     margin: 0px;
 }
 
