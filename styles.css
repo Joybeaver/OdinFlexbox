@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-flow: column;
-    font-family: Roboto, Aerial, noto-serif;
+    font-family: 'Roboto', Arial, noto-serif;
     margin: 0px;
 }
 
@@ -219,4 +219,3 @@ a:link, a:visited {
     align-items: center;
     padding: 30px 0px;
 }
-/* start doing the 4th part, and maybe think about making the image stay within the container, apply box-sizing: border-box to containers, make the buttons clickable*/
