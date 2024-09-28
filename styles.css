@@ -42,7 +42,8 @@ a:link, a:visited {
 
 .top {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 40px;
     margin-top: 60px;
 }
 
