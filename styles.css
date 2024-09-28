@@ -42,6 +42,7 @@ a:link, a:visited {
 
 .top {
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-between;
     gap: 40px;
     margin-top: 60px;
@@ -76,15 +77,19 @@ a:link, a:visited {
     padding: 5px 30px;
 }
 
+.top button:hover {
+    background-color: #1a65dd;
+}
+
 .image-holder {
-    width: 800px;
-    height: 260px;
+    flex-basis: 800px;
+    height: auto;
 }
 
 .image-holder img{
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: scale-down;
 }
 
 .part-2 {   
@@ -200,6 +205,10 @@ a:link, a:visited {
     color: #F9FAF8;
     padding: 5px 30px;
     width: 150px;
+}
+
+.call-to-action button:hover {
+    background-color: #1a65dd;
 }
 
 .footer {
